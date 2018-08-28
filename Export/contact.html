@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HLM</title>
+    <title>HLM | Contact Us</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
@@ -34,7 +34,7 @@
     </nav>
     <section id="contact" style="padding:40px;padding-right:5px;padding-left:4px;">
         <div class="container">
-            <form action="javascript:void();" method="post" id="contactForm" style="padding:15px;">
+            <form action="contact.php" method="post" enctype="text/plain" id="contactForm" style="padding:15px;">
                 <div class="form-row" style="margin-left:0px;margin-right:0px;padding:10px;">
                     <div class="col-md-6" id="info" style="padding-left:20px;padding-right:20px;">
                         <fieldset></fieldset>
@@ -57,6 +57,7 @@
                                     </tr>
                                     <tr>
                                         <td><i class="fa fa-envelope"></i></td>
+                                        <!-- <td><a href="mailto:rick@hlmpropertymanagement.com">rick@hlmpropertymanagement.com</a></td> -->
                                         <td>rick@hlmpropertymanagement.com</td>
                                     </tr>
                                 </tbody>
@@ -77,12 +78,14 @@
                                 <div class="form-group has-feedback"><label for="calltime">Reason For Contact</label><select class="form-control" name="request" value="request" required="" id="request"><option value="Quote">Get Quote</option><option value="Hello">Say Hello</option></select></div>
                             </div>
                         </div>
-                        <div class="form-group has-feedback"><label for="comments">Message</label><textarea class="form-control" rows="5" name="Comments" id="comments"></textarea></div>
-                        <div class="form-group has-feedback"><button class="btn btn-primary active btn-block" type="submit" style="background-color:#303641;" action="mailto:austin.olbrych@gmail.com">Send <i class="fa fa-chevron-circle-right"></i></button></div>
+                        <div class="form-group has-feedback"><label for="comments">Message</label><textarea class="form-control" rows="5" name="Comments" required="" id="comments"></textarea></div>
+                        <div class="form-group"><button class="btn btn-primary active btn-block" type="submit" style="background-color:#303641;">Send <i class="fa fa-chevron-circle-right"></i></button></div>
                         <hr>
                     </div>
                 </div>
-                <div class="form-row">
+                
+            </form>
+						<div class="form-row">
                     <div class="col-6">
                         <div class="table-responsive">
                             <table class="table">
@@ -108,7 +111,6 @@
                         </div>
                     </div>
                 </div>
-            </form>
         </div>
     </section>
     <div class="footer-dark" position="fixed">
