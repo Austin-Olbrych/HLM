@@ -1,0 +1,75 @@
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+  background-color:rgba(108, 65, 205, 1);
+}
+
+.navbar-light .navbar-brand {
+  color:white;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
+  color:black;
+}
+
+.nav.navbar-nav.ml-auto {
+  font-size:18px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color:#ffffff;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  /*background-color:rgba(217,203,241,0.46);*/
+}
+
+.site-section {
+  text-align:center;
+  /*padding:50px 0 60px;*/
+  padding-top:40px;
+  /*background-color:#fff;*/
+}
+
+#welcome p, #about p {
+  /*max-width:800px;*/
+  font-size:20px;
+  /*margin:0 auto;*/
+  padding-bottom:20px;
+}
+
+.site-section h1 {
+  font-weight:normal;
+  margin-bottom:30px;
+}
+
+#about-row p, #about-row2 p, #about-row li, #about-row2 li, #about-row3 p {
+  font-size:18px;
+}
+
+#about-row, #about-row3 {
+  padding:50px 0;
+}
+
+#about-row li, #about-row2 li {
+  text-align:left;
+}
+
+.navbar-light .navbar-brand {
+  /*background-image:url(../../assets/img/hlm.jpg);*/
+}
+
+#about-row {
+  background-color:rgba(169,128,235,0.46);
+  border-radius:50px;
+}
+
+#about-row2 {
+  background-color:rgba(217,203,241,0.46);
+  border-radius:50px;
+}
+
+#about-row3 {
+  background-color:rgba(106,27,241,0.46);
+  border-radius:50px;
+}
+
